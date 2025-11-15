@@ -1,8 +1,8 @@
 {
   "name": "Media Controller Pro",
   "short_name": "MediaCtrl",
-  "description": "کنترلر رسانه ESP32",
-  "start_url": "/index.html",
+  "description": "کنترلر رسانه ESP32", 
+  "start_url": "/index.html?v=2",
   "display": "standalone",
   "background_color": "#0f3460",
   "theme_color": "#00b4db",
@@ -15,7 +15,7 @@
     },
     {
       "src": "https://via.placeholder.com/512x512/00b4db/ffffff?text=MediaCtrl",
-      "sizes": "512x512",
+      "sizes": "512x512", 
       "type": "image/png"
     }
   ]
