@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Controller Pro</title>
+    <meta name="theme-color" content="#0f3460">
+    <link rel="manifest" href="manifest.json">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Tahoma; }
+        body { background: #0f3460; color: white; padding: 20px; text-align: center; min-height: 100vh; }
+        .container { max-width: 400px; margin: 0 auto; }
+        .logo { font-size: 4rem; margin: 30px 0; }
+        h1 { margin: 20px 0; }
+        .controls { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 30px 0; }
+        .btn { background: #00b4db; color: white; padding: 20px; border-radius: 10px; text-decoration: none; font-size: 1.1rem; transition: 0.3s; }
+        .btn:hover { background: #0083b0; transform: scale(1.05); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🎵</div>
+        <h1>Media Controller Pro</h1>
+        <p>کنترل مستقیم رسانه</p>
+        
+        <div class="controls">
+            <a href="http://mediacontroller/api/trigger?button=PLAY" class="btn">▶️ پخش</a>
+            <a href="http://mediacontroller/api/trigger?button=PAUSE" class="btn">⏸️ مکث</a>
+            <a href="http://mediacontroller/api/trigger?button=STOP" class="btn">⏹️ توقف</a>
+            <a href="http://mediacontroller/api/trigger?button=PREV" class="btn">⏮️ قبلی</a>
+            <a href="http://mediacontroller/api/trigger?button=MUTE" class="btn">🔇 بی‌صدا</a>
+            <a href="http://mediacontroller/api/trigger?button=NEXT" class="btn">⏭️ بعدی</a>
+            <a href="http://mediacontroller/api/trigger?button=VOLDOWN" class="btn">🔉 صدا-</a>
+            <a href="http://mediacontroller/api/trigger?button=VOLUP" class="btn">🔊 صدا+</a>
+        </div>
+    </div>
+</body>
+</html>
